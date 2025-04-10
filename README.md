@@ -26,35 +26,33 @@ This project addresses the challenge of efficiently managing large volumes of mu
 | Dataset Source      | [Kaggle - Multilingual Customer Support](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets/data)
 
 
-## Methodology
+##Methodology
 
-    ### Phase 1: Data Processing
-    
-    Load and preprocess customer queries (handle missing values, tokenize, clean)
-    
-    Extract features: urgency score, sentiment, keyword embeddings (TF-IDF / Word2Vec)
-    
-    Store structured output in Cassandra
-  
-  
-    ### Phase 2: Machine Learning
-    
-    Train classifier to categorize queries using Spark MLlib
-    
-    Train regression model to predict resolution time
-    
-    Evaluate model performance using accuracy, RMSE, and F1 Score
-  
-  
-    ### Visualization & Insights
-    
-    Use AWS SageMaker to create dashboards showing:
-    
-    Predicted vs. actual resolution times
-    
-    Category-wise query distribution
-    
-    Urgency heatmaps
+### Phase 1: Data Processing
+
+- Load and preprocess customer queries (handle missing values, tokenize, clean)
+
+- Extract features: urgency score, sentiment, keyword embeddings (TF-IDF / Word2Vec)
+
+- Store structured output in Cassandra
+
+### Phase 2: Machine Learning
+
+- Train classifier to categorize queries using Spark MLlib
+
+- Train regression model to predict resolution time
+
+- Evaluate model performance using accuracy, RMSE, and F1 Score
+
+### Visualization & Insights
+
+- Use AWS SageMaker to create dashboards showing:
+
+- Predicted vs. actual resolution times
+
+- Category-wise query distribution
+
+- Urgency heatmaps
 
 
 ## Key Features
