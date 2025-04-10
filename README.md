@@ -91,7 +91,6 @@ enhancing-customer-support-ai/
 │
 ├── hive/                         # Hive SQL scripts
 │   ├── create_tables.sql
-│   ├── merge_datasets.sql
 │   └── sample_queries.sql
 │
 ├── cassandra/                    # Cassandra DB schema & scripts
