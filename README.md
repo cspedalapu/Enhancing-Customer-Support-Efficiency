@@ -57,25 +57,25 @@ This project addresses the challenge of efficiently managing large volumes of mu
 
 ## Key Features
 
-NLP-powered sentiment and urgency analysis
+- NLP-powered sentiment and urgency analysis
 
-Multilingual query handling
+- Multilingual query handling
 
-Scalable architecture for future expansion
+- Scalable architecture for future expansion
 
-Integration with Hive, Cassandra, and SageMaker
+- Integration with Hive, Cassandra, and SageMaker
 
 
 
 ## Acknowledgments
 
-Kaggle Dataset: Multilingual Customer Support Tickets
+- Kaggle Dataset: Multilingual Customer Support Tickets
 
-AWS Documentation (S3, SageMaker, EMR)
+- AWS Documentation (S3, SageMaker, EMR)
 
-Apache Hive, Spark, Cassandra Docs
+- Apache Hive, Spark, Cassandra Docs
 
-VADER Sentiment, TextBlob, and Gensim Word2Vec
+- VADER Sentiment, TextBlob, and Gensim Word2Vec
 
 
 ---
