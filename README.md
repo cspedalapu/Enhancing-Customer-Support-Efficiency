@@ -25,6 +25,38 @@ This project addresses the challenge of efficiently managing large volumes of mu
 | NLP Techniques      | TF-IDF, Word2Vec, VADER, TextBlob        |
 | Dataset Source      | [Kaggle - Multilingual Customer Support](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets/data)
 
+
+##Methodology
+##Phase 1: Data Processing
+Load and preprocess customer queries (handle missing values, tokenize, clean)
+Extract features: urgency score, sentiment, keyword embeddings (TF-IDF / Word2Vec)
+Store structured output in Cassandra
+
+###Phase 2: Machine Learning
+Train classifier to categorize queries using Spark MLlib
+Train regression model to predict resolution time
+Evaluate model performance using accuracy, RMSE, and F1 Score
+
+###Visualization & Insights
+Use AWS SageMaker to create dashboards showing:
+Predicted vs. actual resolution times
+Category-wise query distribution
+Urgency heatmaps
+
+##Key Features
+NLP-powered sentiment and urgency analysis
+Multilingual query handling
+Scalable architecture for future expansion
+Integration with Hive, Cassandra, and SageMaker
+
+
+
+##Acknowledgments
+Kaggle Dataset: Multilingual Customer Support Tickets
+AWS Documentation (S3, SageMaker, EMR)
+Apache Hive, Spark, Cassandra Docs
+VADER Sentiment, TextBlob, and Gensim Word2Vec
+
 ---
 
 ## 📁 Project Structure
@@ -70,46 +102,6 @@ enhancing-customer-support-ai/
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project overview (this file)
 └── LICENSE                       # License (MIT)
-🧪 Methodology
-Phase 1: Data Processing
-Load and preprocess customer queries (handle missing values, tokenize, clean)
 
-Extract features: urgency score, sentiment, keyword embeddings (TF-IDF / Word2Vec)
+--- 
 
-Store structured output in Cassandra
-
-Phase 2: Machine Learning
-Train classifier to categorize queries using Spark MLlib
-
-Train regression model to predict resolution time
-
-Evaluate model performance using accuracy, RMSE, and F1 Score
-
-Visualization & Insights
-Use AWS SageMaker to create dashboards showing:
-
-Predicted vs. actual resolution times
-
-Category-wise query distribution
-
-Urgency heatmaps
-
-Key Features
-NLP-powered sentiment and urgency analysis
-
-Multilingual query handling
-
-Scalable architecture for future expansion
-
-Integration with Hive, Cassandra, and SageMaker
-
-
-
-Acknowledgments
-Kaggle Dataset: Multilingual Customer Support Tickets
-
-AWS Documentation (S3, SageMaker, EMR)
-
-Apache Hive, Spark, Cassandra Docs
-
-VADER Sentiment, TextBlob, and Gensim Word2Vec
