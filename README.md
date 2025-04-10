@@ -1,10 +1,10 @@
 # Enhancing Customer Support Efficiency  
 ### AI-Based Query Categorization & Resolution Time Prediction  
-🚀 *CSCE 5300: Big Data and Data Science | Group 12 Project*
+*Big Data and Data Science | Group 12 Project*
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project addresses the challenge of efficiently managing large volumes of multilingual customer support queries. Traditional manual approaches result in delayed responses and poor customer satisfaction. Our solution leverages **Big Data** and **Machine Learning** techniques to:
 
@@ -14,7 +14,7 @@ This project addresses the challenge of efficiently managing large volumes of mu
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component           | Technology Used                         |
 |---------------------|------------------------------------------|
@@ -26,8 +26,8 @@ This project addresses the challenge of efficiently managing large volumes of mu
 | Dataset Source      | [Kaggle - Multilingual Customer Support](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets/data)
 
 
-##Methodology
-##Phase 1: Data Processing
+## Methodology
+## Phase 1: Data Processing
 
 Load and preprocess customer queries (handle missing values, tokenize, clean)
 
@@ -36,7 +36,7 @@ Extract features: urgency score, sentiment, keyword embeddings (TF-IDF / Word2Ve
 Store structured output in Cassandra
 
 
-###Phase 2: Machine Learning
+### Phase 2: Machine Learning
 
 Train classifier to categorize queries using Spark MLlib
 
@@ -45,7 +45,7 @@ Train regression model to predict resolution time
 Evaluate model performance using accuracy, RMSE, and F1 Score
 
 
-###Visualization & Insights
+### Visualization & Insights
 
 Use AWS SageMaker to create dashboards showing:
 
@@ -56,7 +56,7 @@ Category-wise query distribution
 Urgency heatmaps
 
 
-##Key Features
+## Key Features
 
 NLP-powered sentiment and urgency analysis
 
@@ -68,7 +68,7 @@ Integration with Hive, Cassandra, and SageMaker
 
 
 
-##Acknowledgments
+## Acknowledgments
 
 Kaggle Dataset: Multilingual Customer Support Tickets
 
@@ -81,7 +81,7 @@ VADER Sentiment, TextBlob, and Gensim Word2Vec
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 enhancing-customer-support-ai/
